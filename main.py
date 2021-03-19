@@ -20,3 +20,8 @@ for i in range(len(names)):
 # Commit this within branch 'feature' and then merge to 'master'
 
 # Your code goes here:
+print("     ")
+print("Print all 25 combinations of employees: ")
+for i in range(len(names)):
+    for j in range(len(surnames)):
+        print(names[i] + " " + surnames[j])
